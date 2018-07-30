@@ -334,6 +334,9 @@ a{
 }
 
 
+
+
+
 /*REGISTRATION AND LOGIN*/
 .design{
 	border: 1px solid #808080 !important;
@@ -401,6 +404,10 @@ a{
 }
 
 
+
+
+
+
 /*EDIT*/
 input[type="text"].active::-webkit-input-placeholder {
   color: #606060!important;
@@ -422,7 +429,57 @@ input[type="text"].active::-webkit-input-placeholder {
 	font-size:35px;
 }
 
+
+
+
+
+
+
 /*ADD AN ADVERTISEMENT*/
+.Filter1 {
+	padding-left: 20px;
+	font-size: 17px;
+	min-width: 240px;
+	width: 240px;
+}
+.category-p{
+    color:#808080;
+}
+.star-foto{
+	width:8px;
+}
+.section-in-add{
+	margin-top:36px;
+}
+.section-in-add2{
+	margin-top:125px;
+}
+.medium-form{
+	display: block;
+    width: 100%;
+    cursor:pointer;
+    max-width:160px;
+    border-radius: 0.70rem;
+}
+.small-form{
+	display: block;
+    width: 100%;
+    cursor:pointer;
+    max-width:80px;
+    border-radius: 0.70rem;
+}
+.add-advertisement {
+	color:#444444;
+	font-size:30px;
+	font-style: italic;
+}
+
+
+
+
+
+
+
 
 
 
@@ -572,8 +629,18 @@ input[type=text]:focus, textarea:focus {
 @media(max-width: 770px){
 .left-colomn{
 	flex-direction: column;
-}
+	}
 .edit-information{
 	padding-top:20px;
+	}
 }
+
+@media(max-width: 526px){
+.Filter1 {
+	padding-left: 0!important;
+	}
+.form-add{
+	margin-left:-60px;
+	}
 }
+
