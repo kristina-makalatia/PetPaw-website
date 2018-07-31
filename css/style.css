@@ -145,7 +145,7 @@ body {
 }
 .text-btw h2{
 	font-size: 35px;
-	color: #001B17;
+	color: #444444;
 	opacity: 0.7;
 }
 .video {
@@ -186,6 +186,7 @@ body {
 	text-align:center; 
   	vertical-align: middle;
   	display: table-cell;
+  	font-size:24px;
 }
 .test{
 	width:100%;
@@ -479,10 +480,6 @@ input[type="text"].active::-webkit-input-placeholder {
 
 
 
-
-
-
-
 /*DOGS PAGE*/
 .main-category {
 	margin-top: 182px;
@@ -560,7 +557,6 @@ input[type="text"].active::-webkit-input-placeholder {
     font-size: 12px;
     color: #8C8C8C;
     cursor: pointer;
-
 }
 .addCard {
 	width: 100px;
@@ -591,17 +587,26 @@ input[type="text"].active::-webkit-input-placeholder {
 
 
 
-
-
-/*
-input[type=text]:focus, textarea:focus {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid rgba(81, 203, 238, 1);
+/*DOGS_DETAILED*/
+.price-detailed:after{
+	content: '';
+    display: block;
+    width: 80%;
+    height: 1.2px;
+    background-color: #444444;
+    margin-top:5px;
 }
-*/
-
+.p-dog-detailed{
+	color:#808080;
+	font-size:16px;
+}
+.p-in-slider{
+	color:#444444;
+	font-size:22px;
+}
+.slider-in-dogs{
+	border:1px solid #005E3C;
+}
 
 
 
